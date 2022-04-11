@@ -32,6 +32,7 @@ header nav .nav-right-section {
     display: flex;
     list-style: none;
     justify-content: center;
+    align-items: center;
 }
 
 nav .nav-right-section a {
@@ -44,3 +45,75 @@ a {
     cursor: pointer;
 }
 
+nav .nav-right-section .menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 1rem;
+    width: 3.2rem;
+}
+
+main {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}   
+
+main .main-input {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-input-container {
+    width: 52.5rem;
+    border-radius: 100px;
+    border: 1px solid #dfe1ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container input {
+    outline: none;
+    width: 45rem;
+    height: 4rem;
+    border: none;
+}
+
+main .main-input-container .search-icon {
+    margin-left: 1rem;
+}
+
+main .main-buttons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+main .main-buttons div button {
+    width: 15rem;
+    height: 3.5rem;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.btn1 {
+    margin-right: 1rem;
+}
+
+main .main-input-container:hover {
+    
+}
